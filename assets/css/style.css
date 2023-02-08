@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: #000;
     font-family: "Montserrat", sans-serif;
     color: #fff;
+    scroll-behavior: smooth;
 }
 
 section {
@@ -158,8 +162,7 @@ nav img {
     font-size: 1vw;
 }
 .button:hover {
-    padding: 22px 40px;
-    transition: 0.3s;
+    background-color: #00c83f;
 }
 
 .banner-info .button {
@@ -323,7 +326,7 @@ nav img {
     background-position: center;
     background-size: cover;
     height: 85vh;
-    margin-top: 5vw;
+    margin-top: 6vw;
     width: 84%;
     border-radius: 10px;
     filter: opacity(50%);
@@ -344,4 +347,297 @@ nav img {
 
 .banner2-text h1 {
     margin-bottom: 1vw;
+}
+
+.section6 {
+    margin-top: 6vw;
+    text-align: center;
+    width: 84%;
+}
+
+.section6 h1 {
+    margin-bottom: 0.5vw;
+}
+
+.section6 h2 {
+    font-weight: 400;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+}
+
+.section-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 3vw;
+}
+
+.section-list-left,
+.section-list-right {
+    flex: 1;
+}
+
+.list-item {
+    padding: 1vw;
+    font-size: 1.3vw;
+    display: flex;
+    height: 3vw;
+    width: 90%;
+}
+.list-item i {
+    margin-right: 10px;
+    color: #27fb6b;
+}
+
+.section7 {
+    width: 84%;
+    margin-top: 10vw;
+}
+
+.section7 a {
+    position: relative;
+    right: 8vw;
+    bottom: 5vw;
+}
+
+.section7-seta {
+    position: relative;
+    width: 40vw;
+    left: 20vw;
+    bottom: 10vw;
+}
+
+.section-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-top h1 {
+    display: block;
+    text-align: right;
+    width: 35vw;
+    margin-bottom: 0;
+    color: #fff;
+    line-height: 60px;
+}
+.section-top img {
+    width: 35vw;
+}
+
+.section8 {
+    margin-top: 4vw;
+    width: 84%;
+    height: 30vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section8-project {
+    width: 40%;
+}
+.section8-project p {
+    margin: 1vw 0vw;
+    font-size: 1vw;
+}
+.section8-img {
+    flex: 1;
+    width: 20vw;
+    margin-top: 2vw;
+}
+
+.section8-video {
+    width: 50%;
+    text-align: center;
+}
+
+.section8-seta {
+    width: 37vw;
+    position: relative;
+    right: 10vw;
+    bottom: 15vw;
+    filter: opacity(50%);
+    z-index: -1;
+}
+
+.play {
+    width: 0px;
+    height: 0px;
+    border: 20px solid;
+    border-color: transparent transparent transparent #fff;
+    position: relative;
+    left: 20vw;
+    top: -20.5vw;
+    cursor: pointer;
+}
+.border-play {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    position: relative;
+    top: -25vw;
+    left: 17.5vw;
+    cursor: pointer;
+}
+
+.bg-fixed {
+    background-image: url(../img/479-mil-alunos-formados.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    width: 100%;
+    filter: opacity(8%);
+    margin-top: 10vw;
+    height: 110vh;
+}
+
+.content {
+    margin-top: 15vw;
+    width: 84%;
+    text-align: center;
+}
+
+.content h1 {
+    margin-bottom: 1vw;
+}
+.content h2 {
+    font-weight: 500;
+    font-size: 2.1vw;
+    margin-bottom: 3vw;
+}
+
+.balloons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.balloon {
+    flex: 1;
+    text-align: left;
+    margin: 2vw;
+}
+
+.balloon p {
+    padding: 1vw;
+    background-color: #fff;
+    border-radius: 20px 20px 20px 0px;
+    color: #000;
+    line-height: 30px;
+    font-size: 1.2vw;
+}
+
+.user {
+    display: flex;
+    padding: 1vw;
+}
+
+.user-img img {
+    width: 65px;
+    height: 65px;
+    margin-right: 1vw;
+}
+
+.user-name-graduation h1 {
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-bottom: 0.3vw;
+}
+
+.user-name-graduation h2 {
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+.reclame-aqui {
+    border: 3px solid #27fb6b;
+    border-radius: 20px;
+    width: 84%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+}
+
+.reclame-aqui img {
+    width: 30vw;
+}
+.reclame-aqui h2 {
+    width: 40vw;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.reclame-aqui span {
+    color: #27fb6b;
+    text-transform: uppercase;
+}
+
+.information {
+    width: 84%;
+    text-align: center;
+    margin-top: 4vw;
+}
+
+.information h1 {
+    margin-bottom: 2vw;
+}
+
+.accordion-item {
+    background-color: #000;
+    border: 2px solid #27fb6b;
+    color: #fff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.accordion-item:after {
+    content: "\002B";
+    color: #fff;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    color: #000;
+    text-align: left;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.panel p {
+    padding: 10px;
+}
+
+footer {
+    margin-top: 8vw;
+    text-align: center;
+    padding: 10px;
+}
+
+footer h4 {
+    font-weight: 600;
+    font-size: 1.3vw;
+}
+
+.redes-sociais {
+    margin: 2vw 0vw 2vw 0;
+    font-size: 1.8vw;
+}
+.redes-sociais i {
+    color: #27fb6b;
+    margin-right: 15px;
 }
