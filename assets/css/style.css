@@ -14,6 +14,13 @@ section {
     justify-content: center;
 }
 
+h1 {
+    color: #27fb6b;
+    font-size: 3.5vw;
+    font-weight: 600;
+    margin-bottom: 2.5vw;
+}
+
 li,
 a {
     list-style: none;
@@ -56,15 +63,16 @@ nav img {
     height: 95vh;
     border-radius: 10px;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 6vw;
 }
 .banner div {
     flex: 1;
 }
 
 .banner-info {
-    align-self: center;
-    text-align: center;
+    /* align-self: center;
+    text-align: center; */
+    margin-top: 3vw;
 }
 
 .banner-info-balloon {
@@ -76,29 +84,30 @@ nav img {
 
 .banner-info-balloon-text {
     text-align: right;
-    width: 22vw;
+    width: 20vw;
     position: absolute;
-    margin-top: 150px;
-    margin-left: 60px;
-    line-height: 40px;
+    margin-top: 7vw;
+    margin-left: 4.5vw;
+    line-height: 2vw;
 }
 
 .banner-info-balloon-text h1 {
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
+    color: #fff;
 }
 
 .banner-info-balloon-text p {
-    margin-top: 55px;
+    margin-top: 1vw;
     color: #27fb6b;
-    line-height: 25px;
-    font-size: 1.3vw;
+    line-height: 1.5vw;
+    font-size: 1vw;
 }
 
 .banner-info-balloon-price {
     position: absolute;
-    margin-top: 400px;
+    margin-top: 18vw;
 }
 
 .balloon-price,
@@ -113,24 +122,24 @@ nav img {
 }
 
 .balloon-price {
-    width: 250px;
-    height: 250px;
+    width: 12vw;
+    height: 12vw;
     border-radius: 100%;
     flex-direction: column;
-    font-size: 30px;
+    font-size: 1.2vw;
     text-transform: uppercase;
     z-index: 1;
 }
 .balloon-price span {
     font-weight: bolder;
-    font-size: 50px;
+    font-size: 3vw;
 }
 .balloon-text {
-    height: 70px;
-    width: 400px;
+    height: 4vw;
+    width: 20.3vw;
     border-radius: 30px;
-    margin-top: 90px;
-    margin-left: 220px;
+    margin-top: 4vw;
+    margin-left: 10vw;
     text-align: right;
 }
 
@@ -143,10 +152,10 @@ nav img {
     color: #000;
     text-transform: uppercase;
     font-weight: 600;
-    padding: 18px 35px;
+    padding: 1.5vw 2vw;
     border-radius: 30px;
     background-color: #27fb6b;
-    font-size: 22px;
+    font-size: 1vw;
 }
 .button:hover {
     padding: 22px 40px;
@@ -155,7 +164,7 @@ nav img {
 
 .banner-info .button {
     position: absolute;
-    margin-top: 50px;
+    margin-top: 3vw;
     right: 25vw;
 }
 
@@ -163,18 +172,12 @@ nav img {
     display: flex;
     justify-content: space-between;
     width: 84%;
+    margin-bottom: 6vw;
 }
 
 .course,
 .form {
     flex: 1;
-}
-
-.course h1 {
-    color: #27fb6b;
-    font-size: 3.5vw;
-    font-weight: 600;
-    margin-bottom: 2.5vw;
 }
 .course h3 {
     font-size: 2.4vw;
@@ -231,10 +234,10 @@ nav img {
 .form-alert h1 {
     font-size: 2vw;
     color: yellow;
+    margin-bottom: 20px;
 }
 .form-alert p {
     font-size: 1vw;
-    margin-top: 35px;
     line-height: 30px;
 }
 
@@ -263,6 +266,7 @@ nav img {
     height: 3vw;
     border-radius: 5px;
     padding-left: 15px;
+    border: 1px solid #000;
 }
 
 .form-box div {
@@ -278,4 +282,66 @@ nav img {
     border-color: #27fb6b;
     box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.6);
     text-align: center;
+}
+
+.tickets-form {
+    width: 84%;
+    text-align: center;
+}
+
+.tickets {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.2vw;
+}
+
+.ticket {
+    flex: 1;
+    text-align: center;
+    margin: 2vw;
+}
+
+.ticket-img {
+    height: 250px;
+}
+
+.ticket img {
+    width: 160px;
+}
+
+.ticket h2 {
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+.ticket p {
+    font-size: 1vw;
+    line-height: 25px;
+}
+
+.banner2 {
+    background-image: url(../img/bg-microcertificado2-min.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    margin-top: 5vw;
+    width: 84%;
+    border-radius: 10px;
+    filter: opacity(50%);
+}
+
+.banner2-text {
+    width: 33%;
+    z-index: 1;
+    position: absolute;
+    margin-top: 18vw;
+    margin-right: 45vw;
+}
+
+.banner2-text p {
+    font-size: 1.5vw;
+    margin-bottom: 4vw;
+}
+
+.banner2-text h1 {
+    margin-bottom: 1vw;
 }
