@@ -1,5 +1,5 @@
-var acc = document.getElementsByClassName("accordion-item");
-var i;
+const acc = document.getElementsByClassName("accordion-item");
+let i;
 
 for (i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function () {
@@ -12,3 +12,10 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+const mobileBtn = document.querySelector(".mobile-button");
+const navList = document.querySelector(".nav-list");
+
+mobileBtn.addEventListener("click", () => {
+    navList.classList.toggle("open");
+});

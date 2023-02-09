@@ -1,0 +1,312 @@
+@media only screen and (max-width: 770px) {
+    nav {
+        height: 9vh;
+    }
+
+    h1 {
+        font-size: 8vw;
+    }
+
+    section {
+        text-align: center;
+    }
+
+    nav img {
+        width: 35vw;
+    }
+
+    .mobile-button {
+        display: block;
+        margin-right: 4vw;
+    }
+    .nav-list {
+        background-color: #000;
+        position: absolute;
+        width: 84.1%;
+        top: 8.9vh;
+        height: 20vw;
+        flex-direction: column;
+        transition: 0.3s ease-in;
+        transform: translateY(-200%);
+    }
+
+    .nav-list.open {
+        transform: translateY(0%);
+    }
+
+    .nav-list li {
+        font-size: 2vw;
+        margin: 1.5vw 0px 0px 1.4vw;
+        text-align: left;
+    }
+
+    .nav-list a {
+        font-size: 2.2vw;
+    }
+
+    .banner {
+        background-image: url(../img/Banner-mobile.jpg);
+        height: 85vh;
+    }
+    .banner-info {
+        display: none;
+    }
+
+    .course-form {
+        display: block;
+    }
+
+    .course h3 {
+        font-size: 6vw;
+        margin: 4vw;
+    }
+
+    .course-box {
+        flex-direction: column;
+        padding: 10px;
+        margin: 5vw 0px;
+    }
+
+    .course-box h2 {
+        font-size: 6vw;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .course-box span {
+        border: none;
+    }
+
+    .form {
+        align-items: center;
+    }
+
+    .form-alert {
+        width: 95%;
+        height: 18vh;
+        padding: 5px;
+    }
+
+    .form-alert h1 {
+        font-size: 7vw;
+        margin-bottom: 2vw;
+    }
+
+    .form-alert p {
+        font-size: 2vh;
+        line-height: normal;
+    }
+
+    .form-box {
+        width: 95%;
+        padding: 2vw;
+    }
+
+    .form-box form {
+        font-size: 5vw;
+        text-align: left;
+    }
+
+    .form-box input,
+    .form-box select {
+        height: 9vw;
+        width: 90%;
+        font-size: 4vw;
+    }
+
+    .button {
+        font-size: 4vw;
+        padding: 3.5vw 2vw;
+    }
+
+    .tickets {
+        flex-direction: column;
+    }
+
+    .ticket-img {
+        height: 205px;
+    }
+
+    .ticket h2 {
+        font-size: 7vw;
+        margin-bottom: 0vw;
+    }
+    .ticket p {
+        font-size: 4vw;
+        line-height: 25px;
+        margin-bottom: 6vw;
+    }
+
+    .banner2 {
+        background-image: url(../img/bg-microcertificado-mobile.jpg);
+    }
+
+    .banner2-text {
+        width: 80%;
+        position: absolute;
+        margin-top: 70vw;
+        margin-right: 0vw;
+    }
+
+    .banner2-text p {
+        font-size: 4vw;
+        margin: 6vw 0vw;
+    }
+
+    .section6 h2 {
+        font-size: 5vw;
+        margin: 4vw;
+    }
+
+    .section-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 10vw;
+    }
+
+    .list-item {
+        padding: 4vw;
+        font-size: 1em;
+        display: flex;
+        height: 13vw;
+        width: 90%;
+    }
+
+    .section-top {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .section-top h1 {
+        font-size: 6.5vw;
+        text-align: center;
+        width: 80vw;
+        margin-bottom: 10vw;
+        line-height: normal;
+    }
+
+    .section7-seta {
+        position: relative;
+        width: 47vw;
+        left: -12vw;
+        bottom: 76vw;
+    }
+
+    .section7 {
+        height: 52vh;
+    }
+
+    .section7 a {
+        display: none;
+    }
+
+    .section-top img {
+        width: 90vw;
+    }
+
+    .section8 {
+        flex-direction: column;
+    }
+
+    .section8-project {
+        width: 100%;
+    }
+
+    .section8-project p {
+        margin: 1vw 0vw;
+        font-size: 3vw;
+    }
+
+    .section8-img {
+        width: 55vw;
+        margin-top: 1vw;
+    }
+
+    .section8-video {
+        width: 100%;
+        text-align: center;
+    }
+    .bg {
+        margin-top: 72vh;
+    }
+    .section8-video img {
+        width: 70vw;
+    }
+
+    .border-play {
+        display: none;
+    }
+
+    .play {
+        display: none;
+    }
+
+    .balloons {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+    }
+
+    .content h2 {
+        font-size: 4vw;
+        margin: 5vw 0vw;
+    }
+
+    .balloon p {
+        padding: 4vw;
+        line-height: 20px;
+        font-size: 4vw;
+    }
+
+    .user-name-graduation h1 {
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
+    .user-name-graduation h2 {
+        font-size: 3.4vw;
+        margin: 3vw 0vw 10vw 0vw;
+    }
+
+    .bg-fixed {
+        height: 185vh;
+    }
+
+    .user-name-graduation {
+        margin-top: 12px;
+    }
+    .user {
+        margin-top: 3vw;
+    }
+
+    .reclame-aqui {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 8vw;
+    }
+
+    .reclame-aqui img {
+        width: 70vw;
+    }
+
+    .reclame-aqui h2 {
+        width: 100vw;
+        font-size: 5vw;
+        margin-top: 4vw;
+    }
+
+    footer h4 {
+        font-size: 4vw;
+    }
+
+    .redes-sociais {
+        font-size: 6vw;
+    }
+
+    footer p {
+        font-size: 3vw;
+    }
+}

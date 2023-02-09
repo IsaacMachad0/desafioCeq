@@ -39,6 +39,11 @@ nav {
     height: 6vw;
 }
 
+.mobile-button {
+    font-size: 4vw;
+    display: none;
+}
+
 nav img {
     width: 16vw;
 }
@@ -241,7 +246,6 @@ nav img {
 }
 .form-alert p {
     font-size: 1vw;
-    line-height: 30px;
 }
 
 .form-box {
@@ -446,6 +450,10 @@ nav img {
     margin-top: 2vw;
 }
 
+.section8-img2 {
+    width: 70vh;
+}
+
 .section8-video {
     width: 50%;
     text-align: center;
@@ -460,27 +468,6 @@ nav img {
     z-index: -1;
 }
 
-.play {
-    width: 0px;
-    height: 0px;
-    border: 20px solid;
-    border-color: transparent transparent transparent #fff;
-    position: relative;
-    left: 20vw;
-    top: -20.5vw;
-    cursor: pointer;
-}
-.border-play {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 5px solid #fff;
-    position: relative;
-    top: -25vw;
-    left: 17.5vw;
-    cursor: pointer;
-}
-
 .bg-fixed {
     background-image: url(../img/479-mil-alunos-formados.jpg);
     background-position: center;
@@ -490,7 +477,7 @@ nav img {
     width: 100%;
     filter: opacity(8%);
     margin-top: 10vw;
-    height: 110vh;
+    height: 130vh;
 }
 
 .content {

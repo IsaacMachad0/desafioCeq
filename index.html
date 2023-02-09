@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://kit.fontawesome.com/a7338bc6b8.css" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
     <title>Desafio</title>
 </head>
 
@@ -16,6 +17,10 @@
     <section>
         <nav>
             <img src="assets/img/logo-grupo-prominas-faculdade-unica.png" alt="logo-grupo-prominas-faculdade-unica">
+
+            <span class="mobile-button">
+                <i class="fa-solid fa-bars"></i>
+            </span>
 
             <ul class="nav-list">
                 <li><a href="#cursos">cursos</a></li>
@@ -194,7 +199,7 @@
                     <span><i class="fa-regular fa-clock"></i> 5 Semestres</span>
                 </div>
             </div>
-            <div class="form">
+            <div class="form" id="form">
                 <div class="form-alert">
                     <h1>Atenção!</h1>
                     <p>
@@ -292,7 +297,7 @@
                 </div>
             </div>
 
-            <a href="#cursos" class="button">quero me inscrever</a>
+            <a href="#form" class="button">quero me inscrever</a>
         </div>
     </section>
 
@@ -306,7 +311,7 @@
                 pelo diploma.
             </p>
 
-            <a href="#cursos" class="button">quero me inscrever</a>
+            <a href="#form" class="button">quero me inscrever</a>
         </div>
     </section>
 
@@ -355,7 +360,7 @@
                     </div>
                 </div>
             </div>
-            <a href="#cursos" class="button">quero me inscrever</a>
+            <a href="#form" class="button">quero me inscrever</a>
         </div>
     </section>
 
@@ -367,7 +372,7 @@
             </div>
 
             <img src="assets/img/seta.png" class="section7-seta" alt="">
-            <a href="#cursos" class="button">quero me inscrever</a>
+            <a href="#form" class="button">quero me inscrever</a>
         </div>
     </section>
 
@@ -383,15 +388,13 @@
                 <img src="assets/img/seta.png" class="section8-seta" alt="">
             </div>
             <div class="section8-video">
-                <a href="#"><img src="assets/img/capa-video-projeto-rondon-min.png" alt=""></a>
+                <a href="#"><img src="assets/img/capa-video-projeto-rondon-min.png" class="section8-img2" alt=""></a>
                 <p>Assista o vídeo e saiba mais sobre o projeto</p>
-                <div class="play"></div>
-                <div class="border-play"></div>
             </div>
         </div>
     </section>
 
-    <section>
+    <section class="bg">
         <div class="bg-fixed"></div>
         <div class="content">
             <h1>Vidas transformadas</h1>
@@ -483,7 +486,6 @@
                         área,
                         com disciplinas teóricas e práticas. Ao concluir o curso, estará apto a atuar em diversos
                         ramos de uma mesma área do conhecimento.
-                        testeste
                     </p>
                     <p>
                         <strong>Licenciatura:</strong> busca capacitar profissionais para atuação na Educação Básica. A
